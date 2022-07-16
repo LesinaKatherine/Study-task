@@ -56,10 +56,10 @@ class SmallHouse(House):
         print(self._area, self._price)
 
 
-small_house1 = SmallHouse(1200)  # создание объекта класса SmallHouse
-man = Human()  # создание cубъекта класса Human
-man.buy_house(small_house1, 5)  # дом и размер скидки
-man.earn_money(1200)  # добавление средств на счёт
+small_house1 = SmallHouse(1200)
+man = Human()
+man.buy_house(small_house1, 5)
+man.earn_money(1200)
 man.buy_house(small_house1, 30)
 print('\n')
 
